@@ -1,0 +1,123 @@
+.navbar {
+
+  padding-left: 45px;
+}
+#nav{
+  color: #33a242;
+}
+#cross{
+  color: white;
+}
+
+.intro::before {
+  content              : "";
+  position             : absolute;
+  top                  : 0;
+  left                 : 0;
+  width                : 100%;
+  flex-wrap            : wrap;
+  height               : 100vh;
+  /* background-image     : url("Imges/rosie-sun-1L71sPT5XKc-unsplash\ \(1\).jpg"); */
+  background-size      : cover;
+  background-position  : center center;
+  background-position  : center top;
+  background-attachment: fixed;
+  z-index              : -1;
+  opacity              : 1;
+}
+
+ul {
+  display        : flex;
+  margin         : auto;
+  justify-content: center;
+  flex-direction : column;
+  flex-wrap      : wrap;
+  color          : white;
+}
+
+li {
+
+  list-style: none;
+  margin    : 0.7rem 0rem;
+}
+
+#link {
+  box-sizing     : inherit;
+  text-decoration: none;
+  font-size      : 1.15rem;
+  padding-top    : 1rem;
+  color          : White;
+  font-weight    : 200;
+}
+
+#link:hover {
+  border-top   : 3px solid rgb(228, 220, 228);
+  border-radius: 3px;
+  color        : rgb(196, 196, 196);
+}
+#icons{
+  color: #FFFFFF;
+}
+.ham {
+  padding-right   : 45px;
+  position        : fixed;
+  right           : 3px;
+  background-color: black;
+  z-index         : 900;
+  color           : #39b54a;
+  padding-left    : 23px;
+  margin-top      : 5px;
+  border-radius   : 8px;
+}
+
+#hm {
+  cursor: pointer;
+
+}
+
+.hamicon {
+  padding-left: 14px;
+}
+
+.cross {
+  margin-left: 14px;
+  cursor     : pointer;
+}
+
+#nav {
+  margin-bottom: 3rem;
+  margin-top   : 3rem;
+}
+
+.hidebar {
+  background : #181818;
+  color      : rgba(255, 255, 255, 0.25);
+  font-family: "montserrat-light", sans-serif;
+  font-size  : 1.3rem;
+  line-height: 1.846;
+  padding    : 3.6rem 3rem 3.6rem 3.6rem;
+  padding    : 0.6rem 1rem 3.6rem 0;
+  height     : 100%;
+  width      : 240px;
+  position   : fixed;
+  right      : 0;
+  top        : 0;
+  z-index    : 700;
+  overflow-y : auto;
+  overflow-x : hidden;
+  transition : all 1s;
+}
+
+.hidebar p {
+  font-size: 13px;
+}
+
+.hidden {
+  translate : 260px;
+  transition: all 1s;
+}
+
+.licon {
+  margin: 0px 10px;
+
+}
